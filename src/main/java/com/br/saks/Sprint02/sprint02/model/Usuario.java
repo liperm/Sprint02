@@ -20,6 +20,6 @@ public class Usuario {
     @Column(nullable = false, length = 200)
     private String senha;
 
-    @Column(nullable = false, length = 1)
+    @Column(length = 1)
     private Integer status;
 }
